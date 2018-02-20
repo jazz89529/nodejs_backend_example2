@@ -41,7 +41,7 @@ ps. headers 有token哦
   * password: test
   * file: test.png(隨意上傳一張做測試)
 
-## API測試(5)-Get Data
+## API測試(5)-Get Product Data
 
 * HTTP Method: GET
 * URL:http://localhost:3000/product
@@ -56,3 +56,11 @@ ps. headers 有token哦
 * Body(x-www-form-urlencoded):
   * productID: 1,2
   * quantity: 3,4
+  
+## API測試(7)-Get Order Data
+
+* HTTP Method: GET
+* URL:http://localhost:3000/order
+* Headers:
+  * token: 貼上剛剛登入取得的token
+
