@@ -57,10 +57,16 @@ ps. headers 有token哦
   * productID: 1,2
   * quantity: 3,4
   
-## API測試(7)-Get Order Data
+## API測試(7)-Get Order All Data
 
 * HTTP Method: GET
 * URL:http://localhost:3000/order
 * Headers:
   * token: 貼上剛剛登入取得的token
 
+## API測試(8)-Get Order One Data(只能查該用戶自己的訂單)
+
+* HTTP Method: GET
+* URL:http://localhost:3000/order/member
+* Headers:
+  * token: 貼上剛剛登入取得的token
