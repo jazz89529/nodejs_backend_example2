@@ -62,5 +62,5 @@ ps. headers 有token哦
 * HTTP Method: GET
 * URL:http://localhost:3000/order
 * Headers:
-  * token: 貼上剛剛登入取得的token
+  * token: 貼上剛剛登入取得的token
 
