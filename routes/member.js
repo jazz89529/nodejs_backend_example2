@@ -3,7 +3,7 @@ var router = express.Router();
 
 const MemberModifyMethod = require('../controllers/member/modify_controller');
 
-memberModifyMethod = new MemberModifyMethod();
+let memberModifyMethod = new MemberModifyMethod();
 
 /* GET home page. */
 router.post('/member', memberModifyMethod.postRegister); //註冊新會員

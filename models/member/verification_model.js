@@ -5,6 +5,7 @@ const config = require('../../config/development_config');
 module.exports = function verifyToken(token) {
     let tokenResult = '';
     const time = Math.floor(Date.now() / 1000);
+
     return new Promise((resolve, reject) => {
         //判斷token 是否正確
         jwt.verify(token, 'secret', function(err, decoded) {

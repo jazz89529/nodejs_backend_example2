@@ -2,6 +2,7 @@ const db = require('../connection_db');
 
 module.exports = function getProductData(memberData) {
     let result = {};
+
     return new Promise((resolve, reject) => {
         db.query('select * from product', function(err, rows) {
             if(err) {
