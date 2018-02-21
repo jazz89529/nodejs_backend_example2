@@ -1,12 +1,14 @@
 const jwt = require('jsonwebtoken');
 const formidable = require('formidable');
 const fs = require('fs');
+const config = require('../../config/development_config');
 const registerAction = require('../../models/member/register_model');
 const Check = require('../../service/member_check');
 const encryption = require('../../models/member/encryption');
 const loginAction = require('../../models/member/login_model');
 const verify = require('../../models/member/verification_model');
 const updateAction = require('../../models/member/update_model');
+
 
 let check = new Check();
 
@@ -72,7 +74,7 @@ module.exports = class Member {
                     algorithm: 'HS256',
                     exp: Math.floor(Date.now() / 1000) + (60 * 60),//Token設為一個小時
                     data: rows[0].id
-                }, 'secret');
+                }, config.secret);
 
                 res.setHeader('token', token);
                 res.json({
@@ -185,11 +187,8 @@ module.exports = class Member {
                         }
                     })
                 }
-
             })
         }
-
-
     }
 }
 
