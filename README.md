@@ -92,4 +92,4 @@ ps. headers 有token哦
   * token: 貼上有訂單的會員的token
 * Body(x-www-form-urlencoded):
   * orderID: 2
-  * productID: 1,2
+  * productID: 1,2(這裡改成1就可以只刪除一筆資料)
