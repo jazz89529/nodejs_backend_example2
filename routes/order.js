@@ -9,6 +9,10 @@ let orderModifyMethod = new OrderModifyMethod();
 
 router.get('/order', orderGetMethod.getAllOrder);
 
+router.get('/order/member', orderGetMethod.getOneOrder);
+
 router.post('/order', orderModifyMethod.postOrderAllProduct);
+
+router.put('/order', orderModifyMethod.updateOrderProduct);
 
 module.exports = router;

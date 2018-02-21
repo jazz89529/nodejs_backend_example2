@@ -12,7 +12,6 @@ module.exports = function memberLogin(memberData) {
                 return;
             }
             resolve(rows);
-
         })
     })
 }
