@@ -105,3 +105,14 @@ ps. headers 有token哦
   * orderID: 1
   * productID: 3
   * quantity: 2
+  
+## API測試(12)-Confirm Order and Sent Mail
+
+* HTTP Method: PUT
+* URL:http://localhost:3000/order/complete
+* Headers:
+  * Content-Type: application/x-www-form-urlencoded
+  * token: 貼上會員的token
+* Body(x-www-form-urlencoded):
+  * orderID: 1
+
