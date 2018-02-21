@@ -77,7 +77,7 @@ ps. headers 有token哦
 * URL:http://localhost:3000/order
 * Headers:
   * Content-Type: application/x-www-form-urlencoded
-  * token: 貼上有訂單的會員的token
+  * token: 貼上有訂單的會員的token
 * Body(x-www-form-urlencoded):
   * orderID: 1
   * productID: 1
@@ -89,7 +89,7 @@ ps. headers 有token哦
 * URL:http://localhost:3000/order
 * Headers:
   * Content-Type: application/x-www-form-urlencoded
-  * token: 貼上有訂單的會員的token
+  * token: 貼上有訂單的會員的token
 * Body(x-www-form-urlencoded):
   * orderID: 2
   * productID: 1,2(這裡改成1就可以只刪除一筆資料)
@@ -100,7 +100,7 @@ ps. headers 有token哦
 * URL:http://localhost:3000/order/addoneproduct
 * Headers:
   * Content-Type: application/x-www-form-urlencoded
-  * token: 貼上有訂單的會員的token
+  * token: 貼上有訂單的會員的token
 * Body(x-www-form-urlencoded):
   * orderID: 1
   * productID: 3
