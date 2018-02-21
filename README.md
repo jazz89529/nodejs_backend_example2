@@ -92,7 +92,7 @@ ps. headers 有token哦
   * token: 貼上有訂單的會員的token
 * Body(x-www-form-urlencoded):
   * orderID: 2
-  * productID: 1,2(這裡改成1就可以只刪除一筆資料)
+  * productID: 1,2(這裡改成1就可以只刪除一筆資料)
   
 ## API測試(11)-Order One Thing
 
@@ -103,5 +103,5 @@ ps. headers 有token哦
   * token: 貼上有訂單的會員的token
 * Body(x-www-form-urlencoded):
   * orderID: 1
-  * productID: 3
+  * productID: 3
   * quantity: 2
