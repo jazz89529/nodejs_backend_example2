@@ -82,3 +82,14 @@ ps. headers 有token哦
   * orderID: 1
   * productID: 1
   * quantity: 5
+
+## API測試(10)-Delete Order List
+
+* HTTP Method: DELETE
+* URL:http://localhost:3000/order
+* Headers:
+  * Content-Type: application/x-www-form-urlencoded
+  * token: 貼上有訂單的會員的token
+* Body(x-www-form-urlencoded):
+  * orderID: 2
+  * productID: 1,2
