@@ -70,3 +70,15 @@ ps. headers 有token哦
 * URL:http://localhost:3000/order/member
 * Headers:
   * token: 貼上剛剛登入取得的token
+  
+## API測試(9)-Modify Order List
+
+* HTTP Method: PUT
+* URL:http://localhost:3000/order
+* Headers:
+  * Content-Type: application/x-www-form-urlencoded
+  * token: 貼上有訂單的會員的token
+* Body(x-www-form-urlencoded):
+  * orderID: 1
+  * productID: 1
+  * quantity: 5
